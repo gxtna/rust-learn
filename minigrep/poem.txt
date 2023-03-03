@@ -1,0 +1,5 @@
+how are you!
+Compiling minigrep v0.1.0 (/home/gxt/codeSpace/RustCode/minigrep)
+Finished dev [unoptimized + debuginfo] target(s) in 0.14s
+Running `target/debug/minigrep 1234 cbd`
+ARE YOUS;
