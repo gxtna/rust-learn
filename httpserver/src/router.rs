@@ -1,4 +1,4 @@
-use http::{httprequest, httprequest::HttpRequest, httpresponse, httpresponse::HttpResponse};
+use http::{httprequest, httprequest::HttpRequest, httpresponse::HttpResponse};
 use std::io::prelude::*;
 use super::handler::{Handler, PageNotFoundHandler, StaticPageHandler, WebServiceHandler};
 

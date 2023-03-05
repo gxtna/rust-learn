@@ -5,7 +5,7 @@ use std::net::TcpListener;
 use std::str;
 
 pub struct Server<'a> {
-    socket_addr: &'a str,
+    socker_addr: &'a str,
 }
 impl<'a> Server<'a> {
     pub fn new(socker_addr: &'a str) -> Self {
@@ -21,7 +21,7 @@ impl<'a> Server<'a> {
             let mut read_buffer = [0; 200];
             stream.read(&mut read_buffer).unwrap();
             let req: HttpRequest = String::from_utf8(read_buffer.to_vec()).unwrap().into();
-            Router::router(req, &mut stream);
+            Router::route(req, &mut stream);
         }
     }
 }

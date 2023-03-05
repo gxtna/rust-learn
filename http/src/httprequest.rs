@@ -1,4 +1,4 @@
-use std::collections::{hash_map, HashMap};
+use std::collections::HashMap;
 
 #[derive(Debug, PartialEq)]
 pub enum Method {
