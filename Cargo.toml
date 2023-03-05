@@ -5,5 +5,7 @@ members=[
     "tcpclient",
     "tcpserver",
     "http",
-    "httpserver"
+    "httpserver",
+    "actix/actix-web-service",
+    "actix/webapp"
 ]
